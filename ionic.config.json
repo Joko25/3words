@@ -1,0 +1,15 @@
+{
+  "name": "threewords",
+  "app_id": "fa1c6beb",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "integrations": {},
+  "type": "ionic1"
+}

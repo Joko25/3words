@@ -1,0 +1,22 @@
+<ion-view view-title="3Words">
+	<ion-content >
+		<input id="pac-input" class="controls" type="text" placeholder="  Search Place..." style="margin-top:7%;z-index:1;border: 1px solid #d0d0d0;" />
+		<div id="map" class="centerMarker" data-tap-disabled="true"></div>
+		<ion-footer>
+		  <ion-toolbar>
+		    <ion-title></ion-title>
+		    <ion-list>
+		      <ion-item>
+		        API W3W: {{title}}
+		      </ion-item>
+		      <ion-item ng-click="getAddr()">
+		      	API Sendiri: {{title1}}
+		      </ion-item>
+		    </ion-list>
+		    <!-- <div class="row">
+		    	<div align="center" class="col col-12">API W3W: {{title}}</div>
+		    </div> -->
+		  </ion-toolbar>
+		</ion-footer>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,38 @@
+{
+  "name": "w3w-javascript-wrapper",
+  "version": "3.2.0",
+  "homepage": "https://github.com/what3words/w3w-javascript-wrapper",
+  "authors": [
+    "Will Henderson <will@what3words.com>",
+    "Gary Gale <gary@vicchi.org>",
+    "Arnaud Ferrand <arnaud@what3words.com>",
+    "David Piesse",
+    "Oliver Svenson"
+  ],
+  "description": "Javascript wrapper for the what3words API",
+  "main": "dist/W3W.Geocoder.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "what3words",
+    "javascript",
+    "api"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "3.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.2.0",
+    "commit": "d83c12ce57e8bed05758d5dbd20a1e8182525b7e"
+  },
+  "_source": "https://github.com/what3words/w3w-javascript-wrapper.git",
+  "_target": "^3.2.0",
+  "_originalSource": "w3w-javascript-wrapper",
+  "_direct": true
+}
